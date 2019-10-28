@@ -34,6 +34,7 @@ public class UserController {
 	
 	@RequestMapping(value="/formRedirect")
 	public String redirectFrom(Model model) {
+		int i=10;
 		model.addAttribute(AppConstants.MODEL_ATTR, new User());
 		loadAllCountry(model);
 		return AppConstants.LOGICAL_VIEW;
