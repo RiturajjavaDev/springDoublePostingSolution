@@ -7,7 +7,7 @@ import org.springframework.web.servlet.view.InternalResourceViewResolver;
 
 @Configuration
 @ComponentScan(basePackages = "com.nit.user")
-public class AppConfig {
+public class AppConfigForSpring {
 
 	@Bean
 	public InternalResourceViewResolver viewResolverConfig() {
