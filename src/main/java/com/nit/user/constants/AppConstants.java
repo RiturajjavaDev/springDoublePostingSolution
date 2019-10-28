@@ -17,6 +17,7 @@ public interface AppConstants {
 	 */
 	public static final String MSG_KEY="msg";
 	
+	public static final String MSG="teteue";
 	
 	/**
 	 * for Success messages 
