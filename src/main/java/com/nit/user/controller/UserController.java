@@ -22,6 +22,8 @@ public class UserController {
 	public String loadForm(Model model) {
 		model.addAttribute(AppConstants.MODEL_ATTR, new User());
 		loadAllCountry(model);
+		int i=10;
+		int j=20;
 		return AppConstants.LOGICAL_VIEW;
 	}
 	
