@@ -10,7 +10,7 @@ import org.springframework.web.servlet.view.InternalResourceViewResolver;
 public class AppConfig {
 
 	@Bean
-	public InternalResourceViewResolver view() {
+	public InternalResourceViewResolver viewResolverConfig() {
 		InternalResourceViewResolver irvr=new InternalResourceViewResolver();
 		irvr.setPrefix("/WEB-INF/views/");
 		irvr.setSuffix(".jsp");
